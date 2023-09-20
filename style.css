@@ -33,12 +33,59 @@
 }
 .button:hover {
   transition-duration:1s;
+  background-color:@font-face {
+  font-family: Visitor_Rus; 
+  src: url(VisitorRus.ttf); 
+  }
+#name {
+  font-family: Visitor_Rus;
+  font-size: 72px;
+  color: #FFA07A;
+  float:left;
+}
+#body {
+  background-color: #C0C0C0;
+ }
+#logo {
+  width: 200px;
+  float: left;
+}
+#navigation, #who {
+  clear: both;
+}
+#mainhero {
+  height:500px;
+}
+.button {
+  max-width:300px; 
+  background-color:#FFA07A; 
+  margin: 0 auto; 
+  margin-top:30px; 
+  padding:10px;
+  border-radius:5px;
+  text-decoration:none;
+  color: white;
+}
+.button:hover {
+  transition-duration:1s;
   background-color:#FFA07A;
   
 }
 .fortable {
   max-width:300px; 
-  background-color:#C0C0C0; 
+  background-color:#FFA07A; 
+}
+.even {
+  background-color:#FFA07A;
+}
+footer, #navigation {
+  text-align:center;
+};
+  
+}
+.fortable {
+  max-width:300px; 
+  background-color:#FFA07A; 
 }
 .even {
   background-color:#FFA07A;
