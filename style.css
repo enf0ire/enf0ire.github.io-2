@@ -38,3 +38,14 @@ header h1 {
     background-color: #7f9ab3;
     
 }
+.footer {
+    background-color: #fff;
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     text-align: center; 
+     width: 99%;   
+     font-size: 19px;
+  font-weight: bold;
+    color: #7f9ab3;  
+   }
